@@ -48,9 +48,18 @@ CSS
 
 ## 📚 Resources
 
-- Older Personal Projects 
+- Projects Folder  
 - GA Lessons  
 - CodePen and GitHub Copilot (used for CSS to enhance professional look)  
+
+## 🗂 Older Projects
+
+- List previous projects or references you worked on here  
+
+## 🖼 Wireframes
+
+![Homepage Wireframe](https://i.imgur.com/sMrkp9u.png)  
+![Add Movie Wireframe](https://i.imgur.com/dPYBGAT.png)
 
 ## 🚀 Repositories
 
