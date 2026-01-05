@@ -50,7 +50,6 @@ CSS
 
 - Projects Folder  
 - GA Lessons  
-- CodePen (used for CSS to enhance professional look)  
 
 ## 🖼 Wireframes
 
