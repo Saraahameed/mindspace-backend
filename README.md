@@ -1,6 +1,6 @@
 # 🎬 Mindspace
 
-![Mindspace Screenshot](./screenshot.png)  
+![Mindspace Screenshot](https://imgur.com/a/1iMu70j)  
 *Replace with your app screenshot or logo*
 
 ---
