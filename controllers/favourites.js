@@ -3,8 +3,7 @@ const User = require('../models/user');
 
 const router = express.Router();
 
-// Add a movie to favourites
-router.post('/favourites', async (req, res) => {
+router.post('/', async (req, res) => {
   try {
     const { userId, movieId } = req.body;
     if (!userId || !movieId) {
@@ -27,7 +26,7 @@ router.post('/favourites', async (req, res) => {
 });
 
 // Get all favourites for a user
-router.get('/favourites/:userId', async (req, res) => {
+router.get('/:userId', async (req, res) => {
   try {
     const user = await User.findById(req.params.userId).populate('favourites');
     if (!user) return res.status(404).json({ message: 'User not found.' });
@@ -38,8 +37,7 @@ router.get('/favourites/:userId', async (req, res) => {
   }
 });
 
-// Remove a movie from favourites
-router.delete('/favourites', async (req, res) => {
+router.delete('/', async (req, res) => {
   try {
     const { userId, movieId } = req.body;
     if (!userId || !movieId) {
